@@ -9,6 +9,27 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <style>
+  .navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+    background-color: #5E4485;
+    color: #FFF;
+    padding: 1% 0;
+    font-size: 1.2em;
+    border: 0;
+  }
+  .navbar-brand{
+    float: left;
+    min-height: 55px;
+    padding: 0 15px 5px;
+  }
+  .navbar-inverse .navbar-nav .active a,.navbar-inverse .navbar-nav .active a:focus, .navbar-inverse .navbar-nav .active a:hover, {
+    color: #FFF;
+    background-color: #5E4485;
+  }
+  .navbar-inverse .navbar-nav li a {
+    color: #D5D5D5;
+  }
 
   </style>
 </head>
@@ -17,15 +38,15 @@
   <nav class="navbar navbar-inverse">
     <div class="container-fluid">
       <div class="navbar-header">
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="MyNavbar">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="myNavbar">
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="navbar-brand" href="a"><img scr="img"></a>
+        <a class="navbar-brand" href="#"><img src="img/w3newbie.png"></a>
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
-            <ul class="nav navbar-nav navbar right">
+            <ul class="nav navbar-nav navbar-right">
               <li class="active"><a href="a">Home</a></li>
               <li><a href="a">About</a></li>
               <li><a href="a">Services</a></li>
@@ -35,6 +56,21 @@
         </div>
       </div>
     </nav>
+
+<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <ol class="carousel-indicators">
+    <li data-target="#my myCarousel" data-slide-to="0" class="active"></li>
+    <li data-target="#my myCarousel" data-slide-to="1" class="active"></li>
+    <li data-target="#my myCarousel" data-slide-to="2" class="active"></li>
+  </ol>
+  <div class="carousel-inner" role="listbox">
+      <div class="item active">
+      
+  </div>
+
+
+
+</div> <!---End Slider--->
 
   </body>
 </html>
